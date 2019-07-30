@@ -1,15 +1,15 @@
 # mano
-N,Q=input().split()
-N,Q=int(N),int(Q)
-k=input().split()
-l=[]
-for i in range(0,Q):
-    s=input().split()
-    l.append(s)
-for i in range(0,Q):
-    o=[]
+n,q=input().split()
+n,q=int(n),int(q)
+K=input().split()
+L=[]
+for i in range(0,q):
+    S=input().split()
+    L.append(S)
+for i in range(0,q):
+    out=[]
     count=0
-    for j in range(int(l[i][o])-1,int(l[i][l])):
-        o.append(k[j])
-        count+=int(k[j])
-        print(count)
+    for j in range(int(L[i][out])-1,int(L[i][L])):
+        out.append(K[j])
+        count1+=int(K[j])
+        print(count1)
